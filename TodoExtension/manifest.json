@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Todo",
+    "version": "1.0.0",
+    "description": "A simple Chrome extension to add tasks while suffering.",
+    "icons": {
+      "16": "icon.webp",
+      "48": "icon.webp",
+      "128": "icon.webp"
+    },
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "icon.webp",
+        "48": "icon.webp",
+        "128": "icon.webp"
+      }
+    },
+    "permissions": [
+      "storage",
+      "activeTab",
+      "scripting"
+    ]
+    
+  }
